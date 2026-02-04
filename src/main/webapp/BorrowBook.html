@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Borrow Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+    <h2>Borrow Book</h2>
+
+    <form action="borrowBook" method="post">
+
+        <div class="form-group">
+            <label>Book ID</label>
+            <input type="number" name="book_id" required>
+        </div>
+
+        <div class="form-group">
+            <label>Borrower Name</label>
+            <input type="text" name="borrower_name" required>
+        </div>
+
+        <button type="submit">Borrow</button>
+    </form>
+
+    <a class="link-btn" href="index.html">Back to Home</a>
+</div>
+
+</body>
+</html>
